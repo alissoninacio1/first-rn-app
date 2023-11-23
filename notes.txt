@@ -1,0 +1,49 @@
+//o que eu quero exibir em tela, esta no meu return, entao basicamente se eu quero exibir algo, eu estruturo em componentes.
+// o padrao de um componente e: uma funcao que retorna XML
+//nao posso retornar mais de um elemento, 
+//neste caso posso colocar eles dentro de um fragmento <> </>, que serve para embrulhar elementos
+
+//View - similar a uma div
+
+//nome de arquivos com letra maiuscula e com a extensao tsx.
+
+//os elementos tem um identificador chamado 'key' que e unico. 
+
+
+
+//----styles-------
+Usar a palavra style. Como nao recebe um conteudo de texto, devo colocar: style= {}, e passamos um objeto com os as propriedades, ficando assim:
+style= {{
+    backgroundColor: '#FFFFFF',
+}}
+
+Note: as propriedades CSS no react native sao usando camelCase, e os valores entre aspas (exceto ao usar numeros)
+      Nao preciso usar display:flex, pois o flex ja vem habilitado automaticamente.
+
+
+
+
+
+
+//---LogBpx----
+
+//logbox - seria a interface que mostra os erros (lembra o console do navegador ao mostrar os erros)
+//log box amarelo - erros nao tratados e/ou alertas
+//log box vermelha - erros que dao crash (quebram a aplicacao)
+
+
+
+
+//---------Densidade de Pixel--------------
+No react native nao colocamos unidades de medida para definir os tamanhos, ex.: px, em, rem...
+Por que? 
+    Existem 2 tipos de pixels: 
+       de hardware - ponto de luz na tela
+       de softaware - que e dinamico e vai de acordo com a densidade de pixels na tela.
+
+    Densidade de Pixel e o numero total (quantidade) de pixels de que existe dentro de uma area fisica de tela (PPI - pixels per inch) - polegadas por minuto
+    Quanto maior a densidade de uma tela, melhor a definicao e e possivel ver mais detalhes (cabem mais pixels).
+
+Para poder resolver o problema da variedade grande de dispositivos, tamanho e densidade foi criado a DPI
+DPI - renderiza os elementos de uma forma independente das caracteristicas e densidades de cada dispositivo 
+(dpi - "dots per inch" - para o android; e para iOS se chama 'points')
