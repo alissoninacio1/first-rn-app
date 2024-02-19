@@ -34,14 +34,21 @@ export function Home(){
     ])
   }
 
+
+  function displayDate() {
+    //display the data according to the day
+    const currentDate: Date = new Date();
+    return currentDate.toDateString();
+  }
+
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>
-        Event Name
+      📝 Attendance
       </Text>
 
       <Text style={styles.eventDate}>
-        Friday, 11th November, 2023
+        {displayDate()}
       </Text>
 
       <View style={styles.form}>
