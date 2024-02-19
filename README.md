@@ -4,6 +4,11 @@ This is my first mobile app built with React Native. It's a simple attendance li
 This app allows you to keep track of attendance by adding and removing names based on the current day. 
 It provides a user-friendly interface with basic core components such as View, TextInput, TouchableOpacity, and FlatList.
 
+<div align="center">
+    <img src="https://github.com/alissoninacio1/first-rn-app/assets/69402669/3d0e84f0-57f7-4c3b-b0f6-5f35b13d6548" alt="Attendance App">
+</div>
+
+
 ## Technologies Used
 - React Native
 - TypeScript
@@ -24,7 +29,7 @@ It provides a user-friendly interface with basic core components such as View, T
 6. Start adding names to the attendance list by typing in the TextInput field and pressing the "Add" button.
 7. To remove a name, simply press on the name in the list and confirm the removal in the alert dialog.
 
-## Screenshots
+## App Video
 https://github.com/alissoninacio1/first-rn-app/assets/69402669/1cc81d91-16f8-44ff-8363-91b9115b040d
 
 ## Notes
